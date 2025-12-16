@@ -19,13 +19,14 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 20px;
+    padding: 40px;
     border-right: 1px solid #dee2e6;
 }
 
 /* Sidebar nav links */
 .sidebar-nav .nav-link {
     color: #000001;
+    font-size: 20px;
     font-weight: 500;
     padding: 10px 16px;
     margin-bottom: 0px;
@@ -57,7 +58,7 @@ body {
 .container {
     background: #fff;
     padding: 30px;
-    margin-left: 140px;
+    margin-left: 200px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     /* Mimics an A4 page for print-to-PDF functionality */
     @media print {
