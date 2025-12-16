@@ -1,0 +1,120 @@
+/* Basic CSS Reset and Base Styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Use the Google font or a default sans-serif */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* Mimics an A4 page for print-to-PDF functionality */
+    @media print {
+        box-shadow: none;
+        padding: 0;
+    }
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.contact-info {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #007bff; /* Accent color */
+    border-bottom: 1px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Job and Education Items Styling */
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.1em;
+    color: #444;
+}
+
+.dates {
+    font-size: 0.9em;
+    color: #666;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 0.95em;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Skills Section Specific Styling */
+.section p {
+    font-size: 0.95em;
+    margin-bottom: 5px;
+}
+
+/* Print Specific Styles (Optional) */
+@media print {
+    body {
+        background-color: white;
+        padding: 0;
+        font-size: 10pt; /* Smaller font for printing */
+    }
+    .container {
+        width: 100%;
+        box-shadow: none;
+    }
+    .contact-info a {
+        color: inherit; /* Don't force blue links when printing */
+        text-decoration: none;
+    }
+}
