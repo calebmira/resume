@@ -57,7 +57,7 @@ body {
 .container {
     background: #fff;
     padding: 30px;
-    margin-left: 150px;
+    margin-left: 140px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     /* Mimics an A4 page for print-to-PDF functionality */
     @media print {
