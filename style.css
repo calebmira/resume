@@ -24,7 +24,7 @@ body {
 }
 
 /* Sidebar nav links */
-.sidebar-nav .link {
+.sidebar-nav .nav-link {
     color: #000001;
     font-size: 20px;
     font-weight: 500;
@@ -36,13 +36,13 @@ body {
 }
 
 /* Hover state */
-.sidebar-nav .link:hover {
+.sidebar-nav .nav-link:hover {
     background-color: #f1f3f5;
     color: #212529;
 }
 
 /* Active section */
-.sidebar-nav .link.active {
+.sidebar-nav .nav-link.active {
     background-color: #0d6efd;
     color: #ffffff;
 }
