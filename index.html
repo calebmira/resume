@@ -144,7 +144,10 @@
 <button onclick="location.href='snakegame.html'">Go to Snake Game</button>
 
 <div style="display: flex; justify-content: center; margin: 40px 0;">
-    <div class='tableauPlaceholder' id='viz1765932351597' style='position: relative'>
+    <div class='tableauPlaceholder'
+         id='viz1765932351597'
+         style='position: relative; transform: scale(0.75); transform-origin: top center;'>
+
         <noscript>
             <a href='#'>
                 <img alt='Dashboard'
@@ -175,12 +178,15 @@
 <script type='text/javascript'>
     var divElement = document.getElementById('viz1765932351597');
     var vizElement = divElement.getElementsByTagName('object')[0];
-    vizElement.style.width='900px';
-    vizElement.style.height='600px';
+
+    vizElement.style.width = '900px';
+    vizElement.style.height = '600px';
+
     var scriptElement = document.createElement('script');
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+
 
 
 <div style="display: flex; justify-content: center; margin: 40px 0;">
